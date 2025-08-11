@@ -22,6 +22,18 @@ def show_gbv_data():
     print(people_affected)
     print(round(people_affected))
 
+def calc_tax():
+    items =  [24,30,50]
+    for each in items:
+        print(each)
+        sum = each * 0.15
+        print(sum)
+    if sum >10:
+        print("Tax exceeds 10")
+    if sum == 5 :
+        print("Tax is within limit")
+    else: 
+        print("tax too low")
 hello()
 show_gbv_data()
 show_date()
